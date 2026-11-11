@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.homeImage {
+  height: 25rem;
+  width: 30rem;
+}
+
+.baseContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.baseBtn {
+  margin-top: 5rem;
+}
+
+.baseImg {
+  width: 25rem;
+  height: auto;
+}
+
+/* media query setting at 390 */
+@media screen and (max-width: 390px) {
+  .baseContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .adDisplay {
+    display: flex;
+    justify-content: center;
+    width: 99%;
+  }
+
+  .homeImage {
+    width: 15rem;
+    height: auto;
+    margin: 0;
+  }
+
+  .baseBtn {
+    display: flex;
+    width: 15rem;
+  }
+
+  .baseImg {
+    width: 13rem;
+  }
+}
+
+/* media query setting at 1024 */
+@media screen and (min-width: 1024px) {
+  .baseContainer {
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .btmContainer {
+    display: flex;
+    margin-bottom: 3rem;
+    justify-content: space-between;
+  }
+}
+
+/* media query setting at 1440 */
+@media screen and (min-width: 1440px) {
+  .btmContainer {
+    display: flex;
+    justify-content: space-around;
+  }
+}

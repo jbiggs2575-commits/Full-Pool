@@ -1,0 +1,14 @@
+body { 
+  padding-bottom: 5rem; 
+}
+
+.icons {
+  font-size: 1.25rem;
+}
+
+/* Media query at 390px */
+@media screen and (max-width: 390px) {
+  .copyright {
+    font-size: 13px;
+  }
+}

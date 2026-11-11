@@ -1,0 +1,29 @@
+.cardContainer {
+  margin: 3rem;
+}
+
+#toastHeaderImage {
+  height: 10rem;
+  width: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.typeBtn {
+  border-radius: 50px;
+  border: solid 4px white;
+  height: 100px;
+  width: 100px;
+}
+
+.headMain {
+  width: 100%;
+  height: 5rem;
+}
+
+#fontStyle {
+  font-family: 'Baskerville';
+  font-weight: bold;
+}

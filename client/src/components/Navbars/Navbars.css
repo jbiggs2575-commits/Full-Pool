@@ -1,0 +1,15 @@
+.date {
+  font-size: 12px;
+}
+
+.logo {
+  height: 2rem;
+  width: auto;
+}
+
+.navlink {
+  color: aliceblue;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
