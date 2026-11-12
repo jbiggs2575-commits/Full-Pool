@@ -29,6 +29,7 @@ const Navbars = ({ toolProps }) => {
             <Nav className="mr-auto">
               <NavLink className="navlink" to="/">Home</NavLink>
               <NavLink className="navlink" to="/products">Products</NavLink>
+              <NavLink className="navlink" to="/aboutUs">About Us</NavLink>
             </Nav>
             <Nav className="ms-auto">
               {

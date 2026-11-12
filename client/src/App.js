@@ -10,6 +10,7 @@ import DeleteAccount from './pages/DeleteAccount/DeleteAccount'
 import Home from './pages/Home/Home'
 import Products from './pages/Products/Products'
 import Footer from './pages/Footer/Footer'
+import AboutUs from './pages/AboutUs/AboutUs'
 
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -31,6 +32,7 @@ const App = () => {
                 <Route path='/editAccount' element={<EditAccount toolProps={toolProps} />} />
                 <Route path='/deleteAccount' element={<DeleteAccount toolProps={toolProps} />} />
                 <Route path='/products' element={<Products />} />
+                <Route path='/aboutUs' element={<AboutUs />} />
             </Routes>
 
             <Footer />
